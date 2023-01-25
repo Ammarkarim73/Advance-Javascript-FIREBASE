@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title id="title">Messenger</title>
+</head>
+<body>
+    <button type="submit" id="signout">signout</button>
+
+
+    <div id="chatBox">
+        <div id="friendslistbox">
+            <div id="userBox" class="flex">
+                <div id="showPic" class="picture"></div>
+                <h6 id="username"></h6>
+            </div>
+
+            <div id="friends" class="flexCol">
+                <h6 id="text">Friends</h6>
+            </div>
+        </div>
+        <div id="blue" class="flexCol">
+            <div id="chat-with" class="hidden">
+                <h6 id="senderName"></h6>
+                </div>
+            <div id="messages">
+                <ul id="allMessages">
+                    
+                </ul>
+            </div>
+            <div id="input" class="hidden">
+                <input id="messageInput" type="text" placeholder="Type Message" />
+                <button id="send" type="button">send</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="module" src="./chat module.js"></script>
+
+</html>

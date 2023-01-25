@@ -1,0 +1,139 @@
+body {
+    background-image: url(../306-3069429_wallpapers-4k-black-wallpaper-full-hd-wallpapers-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#authBox{
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 90vw;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+#profilePic{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+h3{
+    color: whitesmoke;
+    margin: 100px;
+}
+
+
+p{
+    color: rgb(146, 145, 145);
+}
+
+input{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 1px solid rgba(255, 0, 0, 0.671);
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto 10px auto;
+    border-radius: 10px;
+}
+
+button[type="button" i]{
+    padding: 5px;
+    width: 125px;
+    color: white;
+    background-color: black;
+    color: red;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 5px red;
+    font-weight: 800;
+    cursor: pointer;
+    float: right;
+}
+
+
+button[type="button" i]:hover{
+    background-image: linear-gradient(black, red, red);
+    box-shadow: 0px 0px 3px 5px black;
+    color: black;
+}
+button[type="submit" i]{
+    padding: 5px;
+    width: 100px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.671);
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-inline-end: 50px;
+}
+
+
+button[type="submit" i]:hover{
+    background-image: linear-gradient(red, black, black);
+}
+
+a{
+    color: red;
+    cursor: pointer;
+}
+
+a:hover{
+    color: white;
+}
+
+#label{
+    width: 170px;
+    height: 25px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin: auto;
+    background-size: 100%;
+    border: 2px solid white;
+    font-weight: bold;
+    transition: 0.2s linear;
+}
+
+#label:hover{
+    border: 4px solid red;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture{
+    width: 125px;
+    height: 125px;
+    margin: auto auto 50px auto;
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-image: url(./default\ profile\ picture.jpg);
+}
+
+h1{
+    color: whitesmoke;
+    float: left;
+    margin-inline-start: 30px;
+}

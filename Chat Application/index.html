@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./style.css" />
+
+
+</head>
+
+<body>
+
+<div id="authBox">
+
+<img id="logo" src="./logo.jpg" />
+
+<h3>DARK ROOM</h3>
+<p>Chat Though The Dark Way</p>
+
+<form id="login" class="box" action="javascript:void(0);">
+  <h3>LOGIN</h3>
+  <input type="email" onkeyup="enable()" placeholder="email" id="loginEmail" minlength="1" maxlength="32" />
+  <br />
+  <input type="password" placeholder="password" id="loginPassword" minlength="6" maxlength="20" />
+  <br />
+  <input type="submit" value="LOGIN" disabled id="loginSubmit" />
+
+  <p>Don't haven't account? <a id="showSignup" href="#">signup</a></p>
+</form>
+
+
+  <form id="signup" class="hidden" action="javascript:void(0);">
+    <h3>SIGNUP</h3>
+    <input type="text" placeholder="Enter your Full Name" id="name" minlength="1" maxlength="32" />
+    <input type="email" placeholder="email" id="signupEmail" minlength="1" maxlength="32" />
+    <input type="password" placeholder="password" id="signupPassword" minlength="6" maxlength="20" />
+    <input type="Submit"  value='SIGNUP' id="signupsubmit" />
+
+    <p>Already Have account? <a id="showLogin" href="#">login</a></p>
+  </form>
+
+</div>
+
+
+</body>
+
+<script type="module" src="./firebase module.js"></script>
+
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+</html>
