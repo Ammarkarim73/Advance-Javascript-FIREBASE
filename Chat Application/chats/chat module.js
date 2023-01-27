@@ -52,14 +52,7 @@ import {
     onAuthStateChanged,
   } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js";
   
-    const firebaseConfig = {
-      apiKey: "AIzaSyBadcdnYjesadKLMbT9iyw8quIc6Zbzhvs",
-      authDomain: "dark-room-73.firebaseapp.com",
-      projectId: "dark-room-73",
-      storageBucket: "dark-room-73.appspot.com",
-      messagingSenderId: "388416950055",
-      appId: "1:388416950055:web:9eaa5b2e34daa5038e2302"
-    };
+    const firebaseConfig = {};
 
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
